@@ -3,41 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- import bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- import font -->
     <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet" type="text/css">
+    <!-- link to css file -->
     <link rel="stylesheet" href="./Assets/Css/styles.css">
+   
     <title>China Restaurant</title>
 </head>
 <body>
     <header>
-        <nav id="header-nav" class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header d-flex flex-wrap justify-content-md-start">
-                    <a href="index.html" class="pull-left visible-md visible-lg">
+        <nav id="header-nav" class="navbar navbar-expand-lg">
+            <div class="container d-flex flex-wrap justify-content-between">
+                <!-- logo part -->
+                <div class="navbar-header d-flex">
+                    <a href="index.html" class="pull-left d-none d-lg-block">
                         <div id="logo-img">
                             <img src="./Assets/Image/restaurant-logo.png" alt="Logo">
                         </div>
                     </a>
-                    <div class="navbar-brand">
+                    <div class="navbar-brand mx-2">
                         <a href="index.html" class="text-decoration-none"><h1>China Restaurant</h1></a>
                         <p>
                             <img src="./Assets/Image/star-k-logo.png" alt="Kosher certification">
                             <span>Kosher Certified</span>
                         </p>
+                        <div class="d-inline phonenumber">
+                            <p>
+                                Phone number: 
+                                <a href="tel:410-602-5008" class="text-decoration-none text-secondary"><span>410-602-5008</span></a>
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <!-- button part -->
+                <div>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="nav navbar-right navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link text-center" href="#menu-categories.html">
+                                <i class="fa-solid fa-utensils"></i>
+                                <br>
+                                Menu
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-center" href="#">
+                                <i class="fa-sharp fa-solid fa-circle-info"></i>
+                                <br>
+                                About
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-center" href="#">
+                                <i class="fa-solid fa-certificate"></i>
+                                <br>
+                                Awards
+                            </a>
+                          </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
+
     <div>
 
     </div>
-    <footer>
-
-    </footer>
     
+    <footer>
+        
+    </footer>
+
     <!-- jQuery -->
     <script src="./Assets/Js/scripts.js"></script>
 </body>
