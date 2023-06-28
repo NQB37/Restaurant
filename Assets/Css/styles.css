@@ -19,12 +19,6 @@ body {
     border-radius: 0;
     border: 0;
 }
-  
-/* #logo-img {
-    width: 150px;
-    height: 150px;
-    margin: 10px 15px 10px 0;
-} */
 
 .navbar-brand {
     padding-top: 25px;
@@ -50,4 +44,8 @@ body {
 
 .navbar-brand p span { /* Star-K */
     vertical-align: middle;
+}
+
+footer{
+    background-color: #363636;
 }
